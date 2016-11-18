@@ -1,0 +1,14 @@
+/*by 2016-11-7*/
+/*reset*/
+
+*{padding: 0;margin:0;}
+body{background: grey;}
+#div1{position: relative;margin: 100px auto;}
+/*地图的区域背景*/
+.map1{width: 50px;height: 50px;background: black;float: left;}/*最底的黑色背景*/
+.map2{width: 50px;height: 50px;background:url(../img/wall.png) no-repeat;float: left;}/*墙的背景*/
+.map3{width: 50px;height: 50px;background: red;float: left;}/*箱子最终推入的区域*/
+.map4{width: 50px;height: 50px;background: green;float: left;}/*箱子活动的区域*/
+/*箱子和人物的层，位于地图区域上，且在同一层*/
+.box{width: 50px;height: 50px;background: url(../img/box1.png) no-repeat;position: absolute;}/*箱子的背景*/
+.per{width: 50px;height: 50px;background: url(../img/person.png) no-repeat;position: absolute;}
